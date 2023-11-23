@@ -3,3 +3,6 @@ pandas
 gunicorn
 dash-bootstrap-components
 matplotlib
+plotly
+pymongo==3.10
+dnspython
