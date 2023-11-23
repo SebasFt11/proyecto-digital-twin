@@ -7,10 +7,10 @@ izquierdo = dbc.Container([  # Se crea un contenedor de Dash que señala los ele
     html.P("Bienvenido a nuestra herramienta de monitoreo de asentamiento de edificios. Aquí explicaremos cómo utilizar este sistema para detectar y actuar ante asentamientos provocados por excavaciones profundas."),  # Párrafo introductorio
 
     html.H3("Sensores y Funcionamiento"),  # Título de nivel 3
-    html.P("Nuestra aplicación está conectada a un sensor que mide la distancia entre el edificio y el suelo. Esta distancia es crucial para identificar asentamientos. Si el asentamiento supera los 0.5 mm, se activará un botón de alerta indicando la necesidad de una inyección de concreto."),  # Explicación sobre sensores y activación
+    html.P("Nuestra aplicación está conectada a un sensor que mide la distancia entre el edificio y el suelo. Esta distancia es crucial para identificar asentamientos. Si el asentamiento supera los 10 cm, se activará un botón de alerta indicando la necesidad de una inyección de concreto."),  # Explicación sobre sensores y activación
 
     html.H3("Propósito y Funcionamiento"),  # Título de nivel 3
-    html.P("El propósito principal de esta herramienta es garantizar la estabilidad del edificio frente a excavaciones profundas. El sistema monitorea continuamente el asentamiento. Si es mayor a 0.5 mm, se emite una alerta para tomar medidas correctivas, de lo contrario, se muestra una señal de estabilidad."),  # Explicación sobre el propósito del monitoreo
+    html.P("El propósito principal de esta herramienta es garantizar la estabilidad del edificio frente a excavaciones profundas. El sistema monitorea continuamente el asentamiento. Si es mayor a 10 cm, se emite una alerta para tomar medidas correctivas, de lo contrario, se muestra una señal de estabilidad."),  # Explicación sobre el propósito del monitoreo
 
     html.P("Esta aplicación emplea conceptos de Gemelos Digitales, tal como se ha descrito en la literatura especializada. Los Gemelos Digitales se utilizan para simular y predecir el comportamiento del edificio en función de los datos obtenidos del sensor."),  # Conexión con el concepto de Gemelos Digitales
 
